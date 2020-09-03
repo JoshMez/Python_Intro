@@ -1,5 +1,3 @@
-#This aims at explaining how strings are used in Python. 
-
 #You can used either single or double quotes in a string.
 
 #Using a single quote
@@ -24,3 +22,9 @@ name = "Josh"
 #Printing a variable using string concatination.
 #When passing the variable into the function, we did not have to put the variable in double quotes.
 print(greeting + " " + name)
+
+print(" * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * ")
+print()
+#You can use the Input fucntion to get information for the user, the information type will be type from the variable.
+name = input("What is you name ? ") #Take note: The structure of the input function.
+print(name)
