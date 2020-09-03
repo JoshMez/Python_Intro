@@ -7,3 +7,6 @@ print(1+2)
 
 #You the print functions to print the my name 
 print("Hello my name is Josh")
+
+#You can use the print functions to print a variety of arugments passed on to it 
+print("Hi my name is Josh", 24, "Hope you all have a great day") 
