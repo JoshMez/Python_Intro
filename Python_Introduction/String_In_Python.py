@@ -1,10 +1,13 @@
-#You can used either single or double quotes in a string.
+#You can used either single , double quotes or tripple quotes in a string.
 
 #Using a single quote
 print('Hello, my name is Josh')
 
 #Using double quotes, Just remember: Only use one quotation mark when starting your string.
-print("Hello, my name is Josh")
+print("Hello, my name is Josh") 
+
+#Using the tripple quotes include. 
+print("""Hello my name is Josh""")
 
 print(" * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * * * ")
 print()
