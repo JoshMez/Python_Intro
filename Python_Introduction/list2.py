@@ -23,3 +23,21 @@ print(fav_cars)
 #Key word to remeber here is: "del"
 del fav_cars[-1]
 print(fav_cars)
+print()                                                              
+#Using pop in our lists.                                             
+kitchen_appliances = [ "Fork",                                       
+                       "Knife",                                      
+                       "Spoons",                                     
+                       "spetula"                                     
+                       ]                                             
+Popped_Apply = kitchen_appliances.pop()                              
+print(kitchen_appliances)                                            
+print(Popped_Apply)                                                  
+#Using the Popped_Apply in a line.                                   
+print(f"My fav kitchen appliance is the {Popped_Apply.lower()}")     
+                                                                     
+#Popping items from a list in any position.                          
+#You can pass argument to the popped function,by passing the index nu
+                                                                     
+Worst_Appli = kitchen_appliances.pop(1)                              
+print(f"My worst kitchen appliance is a {Worst_Appli.lower()}")      
