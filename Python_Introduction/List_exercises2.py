@@ -32,4 +32,11 @@ print()
 #Reversing the list once again so that it is in its original form.
 Places.reverse()
 print(Places)
-print()  
+print()
+#Use the sort(), string methods to sort the list in Alphabetical order.
+Places.sort()
+print(Places)
+print()
+#Using .sort(reverse=True)
+Places.sort(reverse=True)
+print(Places)
