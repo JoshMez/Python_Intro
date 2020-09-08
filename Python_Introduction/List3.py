@@ -31,3 +31,8 @@ print(Sports.reverse()) #Looks like you need to do stage to 1st be
 
 Sports.reverse() #Stage 1, state that you want the list to be in a reverse order.
 print(Sports)
+print("----------------------------------------------------------------------")
+print("----------------------------------------------------------------------")
+#Seeing the amount of objects in a lists.
+#Use the len() funciton.
+print(len(Sports))
