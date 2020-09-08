@@ -37,3 +37,8 @@ print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 #Adding Elements to the end of the lists a list.
 computer_parts.append("Mother Board")
 print(computer_parts)
+
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print() 
+#Creating an empty lists
+More_Parts = []
