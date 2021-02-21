@@ -1,7 +1,7 @@
 current_choice = "-"
 computer_list = []
 #
-while current_choice != 0:
+while current_choice != '0':
     if current_choice in "12345":
         print(f"Adding {current_choice}")
 
