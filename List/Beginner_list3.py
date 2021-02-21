@@ -1,0 +1,33 @@
+current_choice = "-"
+computer_list = []
+#
+while current_choice != '0':
+    if current_choice in "123456":
+        print(f"Adding {current_choice}")
+        if current_choice == '1':
+            computer_list.append("Computer")
+        elif current_choice == '2':
+            computer_list.append("monitor")
+        elif current_choice == '3':
+            computer_list.append("Keyboard")
+        elif current_choice ==  '4':
+            computer_list.append("Mouse")
+        elif current_choice == "5":
+            computer_list.append("Mouse mat")
+        elif current_choice == "6":
+            computer_list.append("HDMI Cable")
+
+    else:
+        print("Please add an option from the list below")
+    print("1: Computer")
+    print("2: monitor")
+    print("3: Keyboard")
+    print("4: Mouse")
+    print("5: Mouse Mat")
+    print("6: HDMI Cable")
+    print()
+
+    current_choice = input("Please add the option you would like :   ")
+
+#Printing the list that we created.
+print(computer_list)
